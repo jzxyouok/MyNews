@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <!--<com.facebook.drawee.view.SimpleDraweeView-->
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/topic_item_picurl"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="45dp" />
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/topic_item_headpicurl"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="18dp" />
+
+        <TextView
+            android:id="@+id/topic_item_name"
+            style="@style/TextViewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="75dp"
+            android:layout_marginTop="22dp" />
+
+        <TextView
+            android:id="@+id/topic_item_title"
+            style="@style/TextViewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="135dp"
+            android:layout_marginTop="22dp" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/topic_item_alias"
+        style="@style/TextViewDescribe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:singleLine="true"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/topic_item_classification"
+            style="@style/TextViewDescribe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#4f004c" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#8c8c8c" />
+
+        <TextView
+            android:id="@+id/topic_item_concern"
+            style="@style/TextViewDescribe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#8c8c8c" />
+
+        <TextView
+            android:id="@+id/topic_item_question"
+            style="@style/TextViewDescribe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <View
+            android:layout_width="6dp"
+            android:layout_height="6dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="9dp"
+            android:background="#8c8c8c" />
+
+        <TextView
+            android:id="@+id/topic_item_answer"
+            style="@style/TextViewDescribe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/topic_item_focus"
+            style="@style/TextViewDescribe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="+关注"
+            android:textColor="@android:color/holo_red_light" />
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="9dp"
+        android:background="#8c8c8c" />
+
+
+</LinearLayout>
+<!-- From: file:/Users/dllo/Desktop/MyNews/app/src/main/res/layout/item_topic.xml -->
